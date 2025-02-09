@@ -7,7 +7,7 @@ export default defineConfig({
     plugins: [react(), tailwindcss()],
     resolve:{
         alias:[
-            { find: '/', replacement: '/src' },
+            { find: '@', replacement: '/src' },
         ],
     },
     server: {
