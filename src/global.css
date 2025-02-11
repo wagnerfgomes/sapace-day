@@ -13,5 +13,6 @@
     --breakpoint-xxl: 1700px;
 }
 
-
-
+:root {
+    overflow-x: hidden;
+}

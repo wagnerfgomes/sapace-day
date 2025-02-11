@@ -3,7 +3,7 @@ import Navigation from '../Navigation';
 const Aside = () => {
     return (
         <aside className="sm:hidden lg:block">
-            <Navigation />
+            <Navigation aside />
         </aside>
     );
 };
