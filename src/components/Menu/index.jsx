@@ -1,8 +1,13 @@
-import MenuHamburguer from "./MenuHamburguer"
+import MenuHamburguer from '../MenuHamburguer';
 
-const Menu = () =>{
-    return(
-        <MenuHamburguer/>
-    )
-}
-export default Menu
+import Navigation from '../Navigation';
+
+const Menu = () => {
+    return (
+        <>
+            <MenuHamburguer />
+            <Navigation />
+        </>
+    );
+};
+export default Menu;

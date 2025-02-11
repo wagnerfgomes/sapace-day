@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Orbitron:wght@400..900&display=swap');
-@import "tailwindcss";
+@import "tailwindcss" important;
 
 @theme {
     --color-dark: #00010D;
@@ -12,3 +12,6 @@
     --breakpoint-xl: 1400px;
     --breakpoint-xxl: 1700px;
 }
+
+
+

@@ -9,7 +9,7 @@ function Routers() {
             <Routes>
                 <Route path="/" element={<Template />}>
                     <Route index element={<Home/>} />
-                    <Route path="/imageOfDay" element={<h1>imageOfDay</h1>} />
+                    <Route path="/imageOfTheDay" element={<h1>imageOfDay</h1>} />
                 </Route>
             </Routes>
         </BrowserRouter>

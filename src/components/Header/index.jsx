@@ -1,11 +1,11 @@
-import Menu from "../Menu"
+import Menu from '../Menu';
 
-const Header = () =>{
+const Header = () => {
     return (
-        <header className="flex items-center justify-between p-4 backdrop-blur-[1px] shadow-[0px_1px_10px_#1d203e] ">
+        <header className="flex items-center justify-between p-4 bg-dark border-b-2 border-sky-950 lg:hidden">
             <img className="h-10" src="images/logo-spaceday.png" alt="" />
             <Menu />
         </header>
     );
-}
-export default Header
+};
+export default Header;
